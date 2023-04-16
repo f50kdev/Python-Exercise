@@ -1,9 +1,4 @@
-nome = input('Qual O seu nome');
-
-print('Seja Benvindo Senhor', nome);
-dia = input('Qual foi o seu dia de nascimento');
-mes = input('Insira o mes');
-ano = input('Insura o ano  que nasceste');
-
-print('voce neasceu no dia',dia , 'de' , mes , 'de ' , ano , 'Certo')
-
+numero1=int(input('Digite o primeiro numero a multiplicar: '))
+numero2=int(input('Digite o segundo numero a multiplicar: '))
+multi=int(numero1*numero2)
+print(multi)
